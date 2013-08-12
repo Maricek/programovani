@@ -1,12 +1,16 @@
+# Nejprve se zeptame uzivatele na hmotnost v kilogramech
 print "What is your weight(kg)? "
 weight = gets.chomp.to_i
 
+# Potom se jej zeptame na vysku v metrech
 print "What is your height(m)? "
 height = gets.chomp.to_f
 
+# Provedeme vypocet
 bmi = weight / height ** 2
 puts "Your BMI is: #{bmi}"
 
+# A vypiseme (puts) hlasku ...
 if bmi <= 16.5
   puts "You're terribly malnourished!"
   puts "Eat more and exercise!"
