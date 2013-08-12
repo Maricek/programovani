@@ -34,5 +34,5 @@ else
 end
  puts "Press enter to finish"
 
-# wait for user to press enter to exit
+# A nakonec pockame nez uzivatel stiskne enter
 gets
