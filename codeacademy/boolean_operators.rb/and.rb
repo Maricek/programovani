@@ -7,8 +7,6 @@ boolean_2 = true
 # boolean_3 = 2**3 == 8 && 3**2 == 9
 boolean_3 = true
 
-
-
 #  &&, only results in true when both expression on either side of && are true
 =begin
 true && true # => true
