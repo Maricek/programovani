@@ -3,7 +3,6 @@ counter = 1
 
 # Dokud neplati ( => je false), ze counter je vetsi nez 11
 until counter > 11
-
   # Vytiskni hodnotu promenne
   puts counter
 
