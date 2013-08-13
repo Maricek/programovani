@@ -13,10 +13,12 @@ puts "Okay bro, I will print '#{msg}' #{iterations} times for you"
 counter = 0
 
 # Do a loop ...
-while counter != iterations
+until counter == iterations
   # Print current counter number
-  puts "#{counter} -  #{msg}"
+  puts "#{counter} - #{msg}"
 
   # Increment iteration counter
   counter = counter + 1
 end
+
+puts "A jebu Ti na to. Hlasku '#{msg}' vic nez #{counter}x  nevypisu!"
