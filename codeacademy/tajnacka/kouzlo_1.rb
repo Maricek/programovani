@@ -10,10 +10,10 @@ iterations = gets.chomp.to_i # Do not forget to convert it "to i" (integer => nu
 puts "Okay bro, I will print '#{msg}' #{iterations} times for you"
 
 # Declare and set current counter variable to 0
-counter = 0
+counter = 1
 
 # Do a loop ...
-until counter == iterations
+until counter > iterations
   # Print current counter number
   puts "#{counter} - #{msg}"
 
@@ -21,4 +21,4 @@ until counter == iterations
   counter = counter + 1
 end
 
-puts "A jebu Ti na to. Hlasku '#{msg}' vic nez #{counter}x  nevypisu!"
+puts "Okay bro, you asked me to say '#{msg}' #{iterations} times. And I did so. It was enough. Was not it?"
