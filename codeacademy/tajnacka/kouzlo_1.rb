@@ -7,7 +7,7 @@ puts "How many times?"
 iterations = gets.chomp.to_i # Do not forget to convert it "to i" (integer => number)
 
 # Inform user
-puts "Okay bro, I will print '#{msg}' #{iterations} times for you"
+puts "Okay bro, I will print '#{msg}' #{iterations} times for you."
 
 # Declare and set current counter variable to 0
 counter = 1
