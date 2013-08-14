@@ -1,9 +1,9 @@
 # Ask user for hail string
-puts "What you want to have printed? "
+puts "What should I say for you? "
 msg = gets.chomp
 
 # Ask user for number of iterations
-puts "How many times?"
+puts "And how many times?"
 iterations = gets.chomp.to_i # Do not forget to convert it "to i" (integer => number)
 
 # Inform user
